@@ -1,0 +1,66 @@
+components:
+- components:
+  - data_bindings:
+    - {code: 'self.item[''threats'']', property: items}
+    layout_properties: {}
+    name: threats_repeating_panel
+    properties: {background: '', border: '', foreground: '', item_template: Home.googlelike_page.iot_objects_verification_page.RowTemplate4.RowTemplate8, items: null, role: null, spacing_above: none, spacing_below: none, tooltip: Remove Threat, visible: true}
+    type: RepeatingPanel
+  data_bindings: []
+  layout_properties: {column: LMVMBN}
+  name: threats_data_grid
+  properties:
+    auto_header: true
+    background: ''
+    border: ''
+    columns:
+    - {data_key: acronym, id: MQHSIH, title: Threat Acronym}
+    - {data_key: rcma, id: MIMQXF, title: Resilient Countermeasure Adopted}
+    foreground: ''
+    role: null
+    rows_per_page: 100000
+    show_page_controls: false
+    spacing_above: small
+    spacing_below: small
+    tooltip: ''
+    visible: true
+    wrap_on: never
+  type: DataGrid
+- components:
+  - data_bindings:
+    - {code: 'self.item[''name'']+'' (''+self.item[''acronym'']+")"', property: text}
+    layout_properties: {column: KUWHEG}
+    name: add_rcma_label
+    properties: {}
+    type: Label
+  - event_bindings: {click: add_threat_button_click}
+    layout_properties: {}
+    name: add_threat_button
+    properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: primary-color, spacing_above: small, spacing_below: small, text: add threat, tooltip: '', underline: false, visible: true}
+    type: Button
+  - components:
+    - components:
+      - layout_properties: {grid_position: 'FEATBE,ACARUV'}
+        name: label_1
+        properties: {align: left, background: '', bold: true, border: '', font: '', font_size: 8, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: none, spacing_below: none, text: 'Reference Object:', tooltip: '', underline: false, visible: true}
+        type: Label
+      layout_properties: {width: 78}
+      name: referenceObjectLabelColumnPanel
+      properties: {col_widths: '{}'}
+      type: ColumnPanel
+    - data_bindings:
+      - {code: 'self.item[''textReference'']', property: text, writeback: true}
+      layout_properties: {grid_position: 'HCNHLT,KLTNGQ', width: 214.333}
+      name: textReferenceInput
+      properties: {align: left, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', hide_text: false, italic: false, placeholder: '', role: null, spacing_above: none, spacing_below: none, text: '', tooltip: '', type: text, underline: false, visible: true}
+      type: TextBox
+    layout_properties: {}
+    name: flow_panel_2
+    properties: {align: center, background: '', border: '', foreground: '', role: null, spacing: none, spacing_above: none, spacing_below: none, tooltip: '', visible: true}
+    type: FlowPanel
+  layout_properties: {column: KUWHEG}
+  name: flow_panel_1
+  properties: {}
+  type: FlowPanel
+container: {type: DataRowPanel}
+is_package: true

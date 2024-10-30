@@ -1,0 +1,23 @@
+# List of examples of what kinds of devices exist
+actuators_list = [
+    "Motors",
+    "Servo motors",
+    "Linear actuators",
+    "Solenoids",
+    "Valves",
+    "Relays",
+    "LED lights",
+    "Heating elements",
+    "Cooling fans",
+    "Pumps",
+    "Electromagnets",
+    "Speakers",
+    "Display screens",
+    "Switches",
+    "Locks",
+    "Door openers",
+    "Curtains/blinds controllers",
+    "Robotic arms",
+    "Drones",
+    "3D printers",
+]

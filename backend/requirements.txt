@@ -1,0 +1,7 @@
+anvil-uplink==0.4.2
+future==0.18.3
+mysql-client==0.0.1
+mysql-connector-python==8.0.33
+protobuf==3.20.3
+six==1.16.0
+ws4py==0.5.1

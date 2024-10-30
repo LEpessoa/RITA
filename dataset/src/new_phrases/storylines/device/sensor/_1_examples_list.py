@@ -1,0 +1,23 @@
+# List of examples of what kinds od devices exist
+sensor_list = [
+    "Temperature sensor",
+    "Light sensor",
+    "Sound sensor",
+    "Infrared sensor",
+    "Ultrasonic sensor",
+    "Gas sensor",
+    "Moisture sensor",
+    "Pressure sensor",
+    "Humidity sensor",
+    "Flex sensor",
+    "Heart rate sensor",
+    "CO2 sensor",
+    "pH sensor",
+    "Color sensor",
+    "Motion sensor",
+    "Accelerometer sensor",
+    "Gyroscope sensor",
+    "Magnetometer sensor",
+    "Proximity sensor",
+    "Current sensor",
+]

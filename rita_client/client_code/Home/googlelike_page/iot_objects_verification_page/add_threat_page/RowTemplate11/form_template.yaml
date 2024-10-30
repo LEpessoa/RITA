@@ -1,0 +1,31 @@
+components:
+- components:
+  - data_bindings: []
+    event_bindings: {click: plus_button_click}
+    layout_properties: {column: PICUYX}
+    name: plus_button
+    properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', icon: 'fa:plus', icon_align: left, italic: false, role: primary-color, spacing_above: small, spacing_below: small, text: '', tooltip: '', underline: false, visible: true}
+    type: Button
+  - data_bindings: []
+    event_bindings: {click: minus_button_click}
+    layout_properties: {column: PICUYX}
+    name: minus_button
+    properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', icon: 'fa:minus', icon_align: left, italic: false, role: secondary-color, spacing_above: small, spacing_below: small, text: '', tooltip: '', underline: false, visible: true}
+    type: Button
+  - event_bindings: {click: check_description_button_click}
+    layout_properties: {}
+    name: check_description_button
+    properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', icon: 'fa:search', icon_align: left, italic: false, role: primary-color, spacing_above: small, spacing_below: small, text: '', tooltip: '', underline: false, visible: true}
+    type: Button
+  layout_properties: {column: PICUYX}
+  name: flow_panel_1
+  properties: {align: left, background: '', border: '', foreground: '', role: null, spacing: medium, spacing_above: small, spacing_below: small, tooltip: '', visible: true}
+  type: FlowPanel
+- data_bindings:
+  - {code: 'self.item[''quantity'']', property: text}
+  layout_properties: {column: XJUMEJ}
+  name: quantity_label
+  properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: text, spacing_above: small, spacing_below: small, text: '', tooltip: '', underline: false, visible: true}
+  type: Label
+container: {type: DataRowPanel}
+is_package: true

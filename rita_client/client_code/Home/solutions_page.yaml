@@ -1,0 +1,103 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'DPRQZF,MOLZAI'}
+    name: headline_1
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: headline, spacing_above: small, spacing_below: small, text: Countermeasures, tooltip: '', underline: false, visible: true}
+    type: Label
+  - components:
+    - layout_properties: {grid_position: 'OYRHKD,YLIJIK'}
+      name: label_1
+      properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 10, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: Filter by Solution Type, tooltip: '', underline: false, visible: true}
+      type: Label
+    - event_bindings: {change: threats_drop_down_change}
+      layout_properties: {grid_position: 'RBQVGK,WQVABL'}
+      name: solution_drop_down_1
+      properties:
+        align: full
+        background: ''
+        bold: false
+        border: ''
+        enabled: true
+        font: ''
+        font_size: null
+        foreground: ''
+        include_placeholder: true
+        italic: false
+        items: []
+        placeholder: All CountermeasureTypes
+        role: null
+        spacing_above: small
+        spacing_below: small
+        tooltip: ''
+        underline: false
+        visible: true
+      type: DropDown
+    layout_properties: {grid_position: 'FSVHLI,GNDBQC'}
+    name: column_panel_1
+    properties: {col_widths: '{}'}
+    type: ColumnPanel
+  - components:
+    - layout_properties: {grid_position: 'MFLMEN,KQDLAH'}
+      name: label_2
+      properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 10, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: Filter by Threat Type, tooltip: '', underline: false, visible: true}
+      type: Label
+    - event_bindings: {change: threats_drop_down_change}
+      layout_properties: {grid_position: 'WHTWII,YJKHML'}
+      name: threats_drop_down
+      properties:
+        align: full
+        background: ''
+        bold: false
+        border: ''
+        enabled: true
+        font: ''
+        font_size: null
+        foreground: ''
+        include_placeholder: true
+        italic: false
+        items: []
+        placeholder: All Threat Types
+        role: null
+        spacing_above: small
+        spacing_below: small
+        tooltip: ''
+        underline: false
+        visible: true
+      type: DropDown
+    layout_properties: {grid_position: 'FSVHLI,ESUIJJ'}
+    name: column_panel_2
+    properties: {col_widths: '{}'}
+    type: ColumnPanel
+  - components:
+    - layout_properties: {}
+      name: solutions_repeating_panel_1
+      properties: {background: '', border: '', foreground: '', item_template: RowTemplate2, items: null, role: null, spacing_above: none, spacing_below: none, tooltip: '', visible: true}
+      type: RepeatingPanel
+    layout_properties: {grid_position: 'PNZBHQ,FAQOAR'}
+    name: solutions_data_grid_1
+    properties:
+      auto_header: true
+      background: ''
+      border: ''
+      columns:
+      - {data_key: resilient_solution_id, id: BCEHWD, title: ID}
+      - {data_key: name, id: BYMQUX, title: Name}
+      - {data_key: description, expand: true, id: XVOAPL, title: Description}
+      foreground: ''
+      role: null
+      rows_per_page: 20
+      show_page_controls: true
+      spacing_above: small
+      spacing_below: small
+      tooltip: ''
+      visible: true
+      wrap_on: never
+    type: DataGrid
+  layout_properties: {grid_position: 'ZMCXEG,ARGIJJ'}
+  name: solutions_ColumnPanel
+  properties: {background: '', border: '', col_spacing: medium, col_widths: '{}', foreground: '', role: card, spacing_above: small, spacing_below: small, tooltip: '', visible: true, wrap_on: mobile}
+  type: ColumnPanel
+container:
+  event_bindings: {show: form_show}
+  properties: {col_widths: '{}'}
+  type: ColumnPanel

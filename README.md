@@ -13,11 +13,10 @@ A vídeo teaching how to use the platform can be found [here](https://youtu.be/A
 A demo of the application can be found [here](https://z2tmmi7gluiwrwhi.anvil.app/UCOFWNH4K7EQ764VLMWPQ4QY).
 
 # How to install locally
-The local installation will be done using dockerhub images.
-
-
-
-
+Execute the deploy scripts in order as follows:
+1. Execute database/deploy.sh
+2. Execute client/deploy.sh
+3. Execute backend/deploy.sh
 
 # Empirical evaluation
 The empirical evaluation was done using a dashboard, which can be found [here](https://docs.google.com/spreadsheets/d/1HwF4ugGoeMJudVAE3xCAkDk_m9fBt1qV1TElV7ACx1E/edit?usp=sharing).

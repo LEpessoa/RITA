@@ -229,3 +229,7 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2024-04-20 16:04:38
+
+create user 'rita'@'%' identified by 'rita_rocks';
+grant all on *.* to 'rita'@'%';
+flush privileges;

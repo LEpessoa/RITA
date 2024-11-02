@@ -29,7 +29,7 @@ while true; do
     if docker logs "${IMAGE_NAME}" 2>&1 | grep -q "Ready for start up.";
         then echo "Container is ready for database restoration."
         break
-    fi # Sleep for a short interval before checking again sleep 5 
+    fi
     sleep 5
 done
 

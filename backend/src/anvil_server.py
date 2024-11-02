@@ -1,22 +1,45 @@
 import anvil.server
 import mysql.connector
 import spacy
-import time
 import anvil.media
+import os
+
+host = os.getenv("db_host")
+port = os.getenv("db_port")
+user = os.getenv("db_user")
+password = os.getenv("db_password")
+uplink_key = os.getenv("uplink_key")
+uplink_address = os.getenv("uplink_address")
+
+print("#############CONFIG###############")
+print("host: " + host)
+print("port: " + port)
+print("uplink_key: " + uplink_key)
+print("uplink_address: " + uplink_address)
+print("db_user: " + user)
+print("db_password: " + password)
+print("##################################")
+
 
 mydb = mysql.connector.connect(
-    host="addm4riota_db_2.0",
-    user="root",
-    password="addm4riota",
+    # host="addm4riota_db_2.0",
+    # host="localhost",
+    host=host,
+    user=user,
+    password=password,
     database="ADDM4RIOTA",
-    port=3306,
+    # port=3336,
+    # port=3306,
+    port=port,
 )
 
 
-MODEL_PATH = "./model-best"
+MODEL_PATH = "./ner_model/target/model-best"
 mycursor = mydb.cursor()
 
-anvil.server.connect("server_ZFWDHEZ5ZOUPDBDHLGJPX7N2-Z2TMMI7GLUIWRWHI")
+# anvil.server.connect("server_6BS6IAV2Z6TJC5HG3SVEJYST-Z2TMMI7GLUIWRWHI") # RITA
+server_url = "ws://" + uplink_address + ":3030/_/uplink"
+anvil.server.connect(uplink_key, url=server_url)
 
 
 def separateText(text):
@@ -264,6 +287,4 @@ def separateText(text):
     return final_separated_phrases
 
 
-while True:
-    anvil.server.wait_forever()
-    time.sleep(300)
+anvil.server.wait_forever()

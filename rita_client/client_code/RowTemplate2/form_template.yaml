@@ -1,9 +1,0 @@
-components:
-- data_bindings:
-  - {code: 'self.item[''description'']', property: text}
-  layout_properties: {column: XVOAPL}
-  name: label_1
-  properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: text-area-scroll, spacing_above: small, spacing_below: small, text: '', tooltip: '', underline: false, visible: true}
-  type: Label
-container: {type: DataRowPanel}
-is_package: true

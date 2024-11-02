@@ -1,0 +1,56 @@
+unique_ids:
+  assets:
+    IoTRM-full.jpg: K2I7MF2FRBYXL347KTZZFD5KNGYDMWSE
+    activity.png: VQPVLOUNC5FMQAZDEGSVVOREXWROI2VH
+    countermeasure2.png: BKUA4TAQ656PMFB4HWDJLS7PWLU73RAR
+    critical.png: JQCRZSZABUZICXRSKDIZ4VDNXFLXAKTG
+    decision.png: FSQFBGU6YPVPFFMXMT3H4L5KVPDLP3JS
+    mm.png: J3BX6QAMK6WAZTIODZ6OWYOZSXTABMGN
+    standard-page.html: ZKJ6YSJJ4L4OUS542HARWXPPHVFPBAS5
+    theme.css: TZJMQY6LFXZOW3YTECATRP3LJJEU64LZ
+    threat2.png: KJSWOHIVAXFGRO7AXHXBR2NV7KUW4GMN
+  forms:
+    Components.resizeableTextArea: '1692655274112398559906346.3717'
+    DataBaseMNGMNT: X26X4DY7KV2P5C23R6NBC6RGKCFM7JJD
+    Home: OUKU6QGLND7P2MUGWHGVTM3ZE4QUUDQS
+    Home.about_page: WMGVQ3LMBT7PDT24TI7OGM3QCYT3KGBK
+    Home.complete_addm4riota_page: UBDF6XSHCASL6ALBHPYQIVOEN4B46M3X
+    Home.description_page: NQFIVHSZ3SMHUZQ7WBLQPJLZUDFS3ESU
+    Home.description_page.definition_resilient_iot_page: NPZKLM3FC47VDBMW5JPH35HKXRQF2VPN
+    Home.googlelike_page: RVSMOGSSONH2WHXEL42WN4BH7I5JM3FQ
+    Home.googlelike_page.add_iot_critical_objects_page: FEKBMU6NRJYNXZHFI62YRQU72DQ7TVLC
+    Home.googlelike_page.add_iot_critical_objects_page.RowTemplate5: C4BDXCOVBDIMIKRFFZ6QOWXOD2R2MJXP
+    Home.googlelike_page.html_form_report_pdf: '1685122053824778892295372.0831'
+    Home.googlelike_page.html_form_report_pdf.ItemTemplate4: '1685123247920859250526079.3271'
+    Home.googlelike_page.html_form_report_pdf.ItemTemplate4.ItemTemplate5: '1685123707568797255311170.7062'
+    Home.googlelike_page.html_form_report_pdf.ItemTemplate4.ItemTemplate5.ItemTemplate6: '1685123803994755517386062.8842'
+    Home.googlelike_page.iot_objects_verification_page: RP57ZDY6X2JXGRUUXUVUMZUZOFSMP5YI
+    Home.googlelike_page.iot_objects_verification_page.RowTemplate4: CLRZ5AFFMDSRCFGVAHCTBIJTWAKZZE24
+    Home.googlelike_page.iot_objects_verification_page.RowTemplate4.RowTemplate6: 5GYBJNMH4BLV3V2KRIIPMDUTKJD6V3IY
+    Home.googlelike_page.iot_objects_verification_page.RowTemplate4.RowTemplate7: 4QOM6ETHI5WKJFP7W7OVQPPDJXNK22NQ
+    Home.googlelike_page.iot_objects_verification_page.RowTemplate4.RowTemplate8: BN47JMJ6FEBSF4RDLZYHLJBMDBDPSGPH
+    Home.googlelike_page.iot_objects_verification_page.RowTemplate4.RowTemplate8.RowTemplate10: ZBURKDO2LGCESVCIPS3UNTIADF2Y2RQJ
+    Home.googlelike_page.iot_objects_verification_page.RowTemplate4.RowTemplate8.RowTemplate9: 5EZ7IVTSZ3ARQO6LG22KCXMK2CBISYE3
+    Home.googlelike_page.iot_objects_verification_page.add_countermeasure_page: QVE7GFU5MEYNJA5GJESYAZX5XYQRS7VK
+    Home.googlelike_page.iot_objects_verification_page.add_threat_page: 4YJQDHBA4EUYB4UBZOAWDTNOFNORNVS3
+    Home.googlelike_page.iot_objects_verification_page.add_threat_page.RowTemplate11: UAACAA4JCP5ICRSR2PJ7O6JOES3MSRYG
+    Home.googlelike_page.iot_objects_verification_page.show_description_page: ID47Z7JSKAFMLGISWJCUTUETQHYBRYWE
+    Home.googlelike_page.pdf_page: '1684960959817334655373017.2093'
+    Home.googlelike_page.pdf_page.ItemTemplate1: '1684961048180567967483544.6858'
+    Home.googlelike_page.pdf_page.ItemTemplate1.ItemTemplate2: '1684962635948926824882998.9402'
+    Home.googlelike_page.pdf_page.ItemTemplate1.ItemTemplate2.ItemTemplate3: '1684962946841551829851897.7994'
+    Home.iot_objects_page: RLBLVCIA53CQWGRT2QT6YHCA6MZF4RNL
+    Home.iot_objects_page.RowTemplate1: 37HGXTFYFLTXFUMKXUT3G5IRCRSUDIB4
+    Home.modelling_process_page: CTVAWIZLMW5AKZRLHRSLFWQGJVZUISMK
+    Home.references_page: GGCHCZ4FYATYJFZXV4YC7Y2CU2SLWMZE
+    Home.solutions_page: 6BTHJOARJITXEKETRKTPNWDLR426ON5S
+    Home.threat_types_page: 6GGAKGI4N2C4NTOTPDXX57S7TKY46T3O
+    RowTemplate2: 2NRMQFSPMG5VFOXZH4M4YJYJX2HYUVUY
+    RowTemplate3: 3CGXOZW4XKIZO3IJ4V5TCZJAERAP5KRF
+    confirmation_popup_modal: OVGDOCTJLM42WNNYQTPCFCZMMXITAJDF
+  modules:
+    Components: '1692663228506330474464977.74554'
+    global_services: '1683513354633931385656183.4618'
+  scripts: {}
+  server_modules:
+    resource: QVNZDS2WUHSWT5DXV66DDV3F7BTLBMYS

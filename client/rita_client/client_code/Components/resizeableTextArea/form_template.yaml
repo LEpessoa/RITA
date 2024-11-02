@@ -1,0 +1,17 @@
+components: []
+container:
+  event_bindings: {show: setText}
+  properties:
+    background: ''
+    border: ''
+    foreground: ''
+    html: "<center style=\"font-style:italic; color:#888; margin: 3em;\">\n  <div id='specialDiv'>Snow Below So White Snow Below So WhiteSnow Below So WhiteSnow Below So White. Snow Below So White. Snow Below So White. Snow Below So White. Snow Below So White. Snow Below So White. Snow Below So White. Snow Below So White. Snow Below So White. Snow Below So White. Snow Below So White.</div>\n</center>\n<div anvil-slot=\"default\"></div>\n<script>\n  el = document.getElementById('specialDiv')\n  function setText(text) {\n    console.log(`Setting tag text to {{text}}`)\n    el.textContent = text;\n  }\n  function setMaxHeight(val) {\n    el.style.maxHeight = val;\n  }\n  function setMinHeight(val) {\n    console.log(`Setting minHeight to ${val}`)\n    el.style.minHeight = val;\n  }  \n  function setMaxWidth(val) {\n    el.style.maxWidth = val;\n  }\n</script>\n<style>\n  #specialDiv {\n    max-height: 10em;\n    min-height: 5em;\n    overflow: auto;\n    max-width: 20em\n  }\n</style>"
+    role: null
+    tooltip: ''
+    visible: true
+  type: HtmlTemplate
+custom_component: true
+is_package: true
+properties:
+- {default_binding_prop: true, default_value: '', name: text, type: string}
+- {default_value: '', name: minheight, type: string}

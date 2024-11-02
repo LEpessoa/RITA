@@ -1,0 +1,49 @@
+components:
+- components:
+  - components:
+    - layout_properties: {grid_position: 'QRZHNH,DGDZGT'}
+      name: label_1
+      properties: {align: left, background: '', bold: true, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: 'Threat Name:', tooltip: '', underline: false, visible: true}
+      type: Label
+    - data_bindings:
+      - {code: 'self.item[''iot_threat_id'']+" - "+self.item[''name'']', property: text}
+      layout_properties: {grid_position: 'WIGBFT,LMPYQA'}
+      name: threat_name_and_acronym_label
+      properties: {}
+      type: Label
+    layout_properties: {grid_position: 'PJANBM,FNEDMV'}
+    name: flow_panel_1
+    properties: {}
+    type: FlowPanel
+  - layout_properties: {grid_position: 'ZMEVZG,MNEKND'}
+    name: label_3
+    properties: {align: left, background: '', bold: true, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: Threat Description, tooltip: '', underline: false, visible: true}
+    type: Label
+  - data_bindings:
+    - {code: 'self.item[''description'']', property: text}
+    layout_properties: {grid_position: 'LRWAVJ,QYHNXA'}
+    name: description_text_label
+    properties: {}
+    type: Label
+  - layout_properties: {grid_position: 'CNFLQT,BFUPJN'}
+    name: label_5
+    properties: {align: left, background: '', bold: true, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: Countermeasures, tooltip: '', underline: false, visible: true}
+    type: Label
+  - data_bindings:
+    - {code: 'len(self.item[''rcms'']) == 0', property: visible}
+    layout_properties: {grid_position: 'HRKIBO,LAMSRB'}
+    name: no_countermeasures_selected_label
+    properties: {align: center, background: orange, bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: No Countermeasures were selected for this threat., tooltip: '', underline: false, visible: false}
+    type: Label
+  - layout_properties: {grid_position: 'UZSJAS,BAVLFZ'}
+    name: countermeasure_repeating_panel
+    properties: {item_template: Home.googlelike_page.html_form_report_pdf.ItemTemplate4.ItemTemplate5.ItemTemplate6}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'ZUBPIL,VNLKFD'}
+  name: card_1
+  properties: {col_widths: '{}', role: card}
+  type: ColumnPanel
+container:
+  properties: {col_widths: '{}'}
+  type: ColumnPanel
+is_package: true

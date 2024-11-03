@@ -14,7 +14,7 @@ A demo of the application can be found [here](https://z2tmmi7gluiwrwhi.anvil.app
 
 # How to install locally
 Execute the deploy scripts in order as follows:
-1. Download the `target` folder from [here](https://drive.google.com/drive/folders/1YXzFSELHtAvrxN0QSF5c9BcdxdGw8MzN?usp=sharing) and place it inside the `ner_model` folder. `target` contains the trained model and was not provided inside github due to it's size.
+1. Download the `target` folder from [here](https://drive.google.com/drive/folders/1YXzFSELHtAvrxN0QSF5c9BcdxdGw8MzN?usp=sharing) and place it inside the `ner_model` folder. The `target` folder contains the trained model and was not provided inside github due to it's size.
 1. Execute database/deploy.sh
 2. Execute client/deploy.sh
 3. Execute backend/deploy.sh
@@ -24,3 +24,8 @@ The empirical evaluation was done using a dashboard, which can be found [here](h
 
 # Model download
 The trained model can be downloaded from [here](https://drive.google.com/drive/folders/1YXzFSELHtAvrxN0QSF5c9BcdxdGw8MzN?usp=sharing).
+
+# Frontend Project Address
+The address below enables any Anvil user to generate a copy of the frontend project:  
+
+[CLONE RITA CLIENT](https://anvil.works/build#clone:Z2TMMI7GLUIWRWHI=7YPEZXURUBM5M4OE3Q5CJU6V)

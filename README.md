@@ -23,4 +23,4 @@ Execute the deploy scripts in order as follows:
 The empirical evaluation was done using a dashboard, which can be found [here](https://docs.google.com/spreadsheets/d/1HwF4ugGoeMJudVAE3xCAkDk_m9fBt1qV1TElV7ACx1E/edit?usp=sharing).
 
 # Model download
-The trained model can be downloaded from [here]().
+The trained model can be downloaded from [here](https://drive.google.com/drive/folders/1YXzFSELHtAvrxN0QSF5c9BcdxdGw8MzN?usp=sharing).

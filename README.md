@@ -4,7 +4,7 @@ This repository has the code and dataset used in the paper: RITA: Automatic Fram
 > The paper can be downloaded [here](https://arxiv.org/abs/2411.18324)
 
 # Authors
-Luis Eduardo Pessoa, [Cristovao Freitas Iglesias Jr](https://cristovaoiglesias.github.io/personalwebsite/), Claudio Miceli
+Luis Eduardo Pessoa, [Cristovao Iglesias](https://cristovaoiglesias.github.io/personalwebsite/), Claudio Miceli
 
 # Abstract
 Designing resilient Internet of Things (IoT) systems requires i) identification of IoT Critical Objects (ICOs) such as services, devices, and resources, ii) threat analysis, and iii) mitigation strategy selection. However, the traditional process for designing resilient IoT systems is still manual, leading to inefficiencies and increased risks. In addition, while tools such as ChatGPT could support this manual and highly error-prone process, their use raises concerns over data privacy, inconsistent outputs, and internet dependence. Therefore, we propose RITA, an automated, open-source framework that uses a fine-tuned
